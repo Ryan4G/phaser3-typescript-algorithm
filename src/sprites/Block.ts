@@ -57,7 +57,7 @@ export default class Block extends Phaser.GameObjects.Container{
                 break;
             }
             case Colors.Yellow:{
-                this._blockRect.fillColor = 0x0000ff;
+                this._blockRect.fillColor = 0xffff00;
                 break;
             }
         }

@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import BinarySearch from '~scenes/BinarySearch';
+import BreadthFirstSearch from '~scenes/BreadthFirstSearch';
 import FloodFill from '~scenes/FloodFill';
 import Shuffle from '~scenes/Shuffle';
 
@@ -16,7 +17,7 @@ const config: Phaser.Types.Core.GameConfig = {
 			gravity: { y: 200 }
 		}
 	},
-	scene: [GameScene, Shuffle, FloodFill, BinarySearch]
+	scene: [GameScene, Shuffle, FloodFill, BinarySearch, BreadthFirstSearch]
 }
 
 export default new Phaser.Game(config)
