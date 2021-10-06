@@ -3,8 +3,8 @@ import Colors from '~enums/Colors';
 import Block from '~sprites/Block';
 
 interface IChangeColor{
-    index: number,
-    color: Colors
+    index: number;
+    color: Colors;
 }
 
 export default class BinarySearch extends Phaser.Scene {

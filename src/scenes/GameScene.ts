@@ -26,7 +26,10 @@ export default class GameScene extends Phaser.Scene {
             'Fisher-Yates Shuffle',
             'Flood Fill',
             'Binary Search',
-            'Breadth-first Search'
+            'Breadth-first Search',
+            'Insertion Sort',
+            'Bubble Sort',
+            'A Star Search'
         ];
 
         let titles: Array<Phaser.GameObjects.Text> = [];

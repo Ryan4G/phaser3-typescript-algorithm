@@ -3,10 +3,10 @@ import Colors from '~enums/Colors';
 import Block from '~sprites/Block';
 
 interface IChangeColor{
-    block1: Block,
-    block2: Block,
-    color: Colors,
-    swapText: boolean
+    block1: Block;
+    block2: Block;
+    color: Colors;
+    swapText: boolean;
 }
 
 export default class Shuffle extends Phaser.Scene {
